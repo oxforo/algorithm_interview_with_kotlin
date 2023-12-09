@@ -1,4 +1,4 @@
-
+package string
 class ValidPalindrome () {
     companion object {
         fun validate (originString: String): Boolean {

@@ -1,3 +1,5 @@
+package string
+
 class ReverseString {
     companion object {
         fun reserve(charArray: CharArray) {

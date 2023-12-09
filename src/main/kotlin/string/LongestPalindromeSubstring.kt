@@ -1,4 +1,4 @@
-import kotlin.math.log
+package string
 
 class LongestPalindromeSubstring {
     companion object {

@@ -1,3 +1,5 @@
+package string
+
 class RecorderLogFiles {
     companion object {
         // TODO : Collections.sort 람다식 표현으로 바꿔볼 것!
@@ -29,8 +31,6 @@ class RecorderLogFiles {
                             }
                         }
                     }
-                    print("${i}, ${j}")
-                    println(dq)
                 }
             }
 
