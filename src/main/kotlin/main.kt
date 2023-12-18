@@ -1,3 +1,6 @@
+import array.BestTimeToBuyAndSellStock
+import array.ProductOfArrayExceptSelf
+
 fun main() {
 //    val isPalindrome = string.ValidPalindrome.validate("Do gees see God?")
 //    println(isPalindrome)
@@ -24,4 +27,16 @@ fun main() {
 //    val result = array.TwoSum.run2(arrayOf(2,6,11,15), 8)
 //    println(result.toList())
 
+//    val result = array.TrappingRainWater.run2(arrayOf(1,1,0,2,1,0,1,3,2,1,2,1))
+//    println(result)
+
+//    val result = ThreeSum.run(arrayOf(1,3,0, -1,5))
+//    println(result.forEach { it -> println(it.toList()) })
+
+
+//    val result = ProductOfArrayExceptSelf.run(arrayOf(1,3,5,-1, 12))
+//    println(result.toList())
+
+    val result = BestTimeToBuyAndSellStock.run(intArrayOf(8,1,5,3,6,4))
+    println(result)
 }
