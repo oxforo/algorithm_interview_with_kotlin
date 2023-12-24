@@ -2,24 +2,6 @@ package linkedlist
 
 import java.util.*
 
-class ListNode(var `val`: Int) {
-    var next: ListNode? = null
-
-    companion object {
-        fun trans(list: List<Int>): ListNode {
-            val result = ListNode(list[0])
-
-            var currentNode: ListNode = result
-            for(i in 1 until list.size) {
-                currentNode.next = ListNode(list[i])
-                currentNode = currentNode.next ?: break
-            }
-            return result
-        }
-    }
-
-}
-
 class MergeTwoSortedLists {
     companion object {
         fun run(listNode1: ListNode?, listNode2: ListNode?): ListNode? {
